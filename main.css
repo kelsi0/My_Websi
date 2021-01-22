@@ -258,25 +258,16 @@ footer {
 
 /* Here Will be Music specific stuff. */
 
-.posMeLeft {
-    align-items: center
-}
-
-.posMeCenter {
-    align-items: center
-}
-
 .videoContainer{
     display:flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
+    width:100%;
 }
 
 .video{
-    padding: 15px;
     text-align: center;
     align-items: center;
-    width: 33%;
-
+    padding: 15px;
 }
 
 /* Here Will be Coding specific stuff. */
@@ -306,6 +297,7 @@ footer {
 
 .hamblecontainer {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .othercontainer {
@@ -313,6 +305,6 @@ footer {
 }
 
 .smallphoto {
-    height: 200px;
+    height: 310px;
     width: auto;
 }
