@@ -1,0 +1,318 @@
+/* Any imported fonts go at the top! */
+
+/* SCSS RGB */
+/* $turquoise: rgb(100, 197, 202)  Strong accent
+purple: rgb(89, 63, 97)      
+rgb(239, 248, 255)        very pale offwhite
+
+
+/* Here I will put CSS for all pages. */
+
+* {
+    box-sizing: border-box;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(251, 254, 254);
+    text-shadow: 2px 2px rgb(84, 164, 168);  
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(251, 254, 254);
+    text-shadow: 2px 2px rgb(84, 164, 168);  
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(251, 254, 254);
+    text-shadow: 2px 2px rgb(84, 164, 168);  
+}
+a:active{
+    text-decoration: none;
+    color: rgb(251, 254, 254);
+    text-shadow: 2px 2px rgb(84, 164, 168);  
+}
+
+body {
+    background-color: rgb(247, 255, 255);
+    opacity: 1;
+}
+
+#top, #bottom, #left, #right {
+    border-style: groove;
+    border-color: rgba(89, 63, 97, 1);
+    border-width: 1px;
+    background-color: rgba(89, 63, 97, 1);
+    position: fixed;
+}
+    #left, #right {
+        top: 0; bottom: 0;
+        width: 15px;
+    }
+    #left {left:0;}
+    #right {right: 0;
+    }
+    #top, #bottom {
+        left: 0; right: 0;
+        height:15px;
+    }
+    #top {top: 0; }
+    #bottom {bottom: 0; }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: rgb(84, 164, 168); 
+}
+
+h4, h3 {font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: larger;
+    }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 14px;
+    padding: 15px;
+    }
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(239, 248, 255);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    text-align: justify;
+    padding: 15px;
+}
+
+section {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(239, 248, 255);
+}
+
+.bottomOfPage{
+    background-color: rgb(239, 248, 255);
+}
+.floatMeLeft {
+    float: left;
+    text-decoration: underline;
+    }
+
+
+.fa-laptop-code{
+    color: rgb(251, 254, 254);
+}
+
+.fa-kickstarter-k {
+    float: left;
+    color: rgb(100, 197, 202);
+}
+
+.navbarContainer {
+    border-style: groove;
+    border-color: rgb(100, 197, 202);
+    border-width: 2px;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background: rgb(100, 197, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.navbarButton1{
+    margin-left: 4px;
+    margin-right: 4px;
+    background:rgb(100, 197, 202);
+    padding: 10px;
+    border: 1px solid  rgb(100, 197, 202);   
+}
+.navbarButton2{
+    margin-left: 4px;
+    margin-right: 4px;
+    background:rgb(100, 197, 202);
+    padding: 10px;
+    border: 1px solid  rgb(100, 197, 202);
+}
+.navbarButton3{
+    margin-left: 4px;
+    margin-right: 4px;
+    background: rgb(100, 197, 202);
+    padding: 10px;
+    border: 1px solid  rgb(100, 197, 202);   
+}
+.navbarButton4{
+    margin-left: 4px;
+    margin-right: 4px;
+    background: rgb(100, 197, 202);
+    padding: 10px;
+    border: 1px solid rgb(100, 197, 202);   
+}
+.navbarButton5{
+    margin-left: 4px;
+    margin-right: 4px;
+    background: rgb(100, 197, 202);
+    padding: 10px;
+    border: 1px solid rgb(100, 197, 202);   
+}
+
+.footerContainer{
+    border-style: groove;
+    border-color: rgb(100, 197, 202);
+    border-width: 2px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background:rgb(100, 197, 202);
+}
+
+.iconContainer{
+    background:rgb(100, 197, 202);
+}
+
+.fa-facebook{
+    color: blue;
+    margin-right: 10px;
+    padding: 5px;
+    background: rgb(177,226,229);
+    background: radial-gradient(circle, rgba(177,226,229,1) 34%, rgba(100,197,202,1) 87%);
+
+}
+
+.fa-youtube{
+    color:red;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background: rgb(177,226,229);
+    background: radial-gradient(circle, rgba(177,226,229,1) 34%, rgba(100,197,202,1) 87%);
+}
+
+.fa-linkedin-in{
+    color:blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background: rgb(177,226,229);
+    background: radial-gradient(circle, rgba(177,226,229,1) 34%, rgba(100,197,202,1) 87%);
+}
+
+
+.fa-github{
+    color:black;
+    margin-left: 10px;
+    padding: 5px;
+    background: rgb(177,226,229);
+    background: radial-gradient(circle, rgba(177,226,229,1) 34%, rgba(100,197,202,1) 87%);
+}
+
+#center {
+    text-align: center;
+}
+
+
+/* Here Will be Index specific stuff. */
+
+.mainTextTitle {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainTextContainter {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.meAndHamPic {
+    height: 200px;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+
+.mainText {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+
+
+/* Here Will be Music specific stuff. */
+
+.posMeLeft {
+    align-items: center
+}
+
+.posMeCenter {
+    align-items: center
+}
+
+.videoContainer{
+    display:flex;
+    flex-direction: wrap;
+}
+
+.video{
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    width: 33%;
+
+}
+
+/* Here Will be Coding specific stuff. */
+
+.codeContainer {
+    display: flex;
+}
+
+.code1 {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.code2 {
+    width: 50%;
+    margin-left: 10px;
+}
+
+/* Here Will be Climbing specific stuff. */
+
+.lilphoto {
+    width: 250px;
+    height: auto;
+}
+
+/* Here Will be Misc specific stuff. */
+
+.hamblecontainer {
+    display: flex;
+}
+
+.othercontainer {
+    display: flex;
+}
+
+.smallphoto {
+    height: 200px;
+    width: auto;
+}
